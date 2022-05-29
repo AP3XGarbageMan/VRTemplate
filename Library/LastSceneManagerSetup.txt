@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MolSlicer.unity
+- path: Assets/Scenes/MolMaker.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
