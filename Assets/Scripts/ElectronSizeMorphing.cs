@@ -6,8 +6,10 @@ using UnityEngine;
 public class ElectronSizeMorphing : MonoBehaviour
 {
     private Vector3 currentOrbSize;
-    private Vector3 minOrbSize = new Vector3(1f, 1f, 1f);
-    private Vector3 maxOrbSize = new Vector3(3f, 3f, 3f);
+    [SerializeField]
+    private Vector3 minOrbSize;
+    [SerializeField]
+    private Vector3 maxOrbSize;
 
     private float startTime;
     private int duration = 2;

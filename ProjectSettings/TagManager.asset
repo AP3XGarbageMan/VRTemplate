@@ -11,6 +11,8 @@ TagManager:
   - electron
   - rHand
   - lHand
+  - eHolder
+  - protonHolder
   layers:
   - Default
   - TransparentFX

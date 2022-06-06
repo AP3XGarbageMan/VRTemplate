@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7211484034128237024}
   - component: {fileID: 8540393714100673362}
   - component: {fileID: 7705505932119264806}
+  - component: {fileID: 1381416096346538452}
   m_Layer: 0
   m_Name: P_CarbonAtom
   m_TagString: Catom
@@ -241,3 +242,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5185f0e7a753d014fb2bb599dc2d4e60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1381416096346538452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430740817437913288}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2598a85f4d19d241828246908faac62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minOrbSize: {x: 1, y: 1, z: 1}
+  maxOrbSize: {x: 3, y: 3, z: 3}
